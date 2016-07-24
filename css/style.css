@@ -284,6 +284,10 @@ body.landing #header {
     margin-right: 30px
 }
 
+.container-fluid > header > p {
+    font-family: georgia, serif;
+}
+
 .Site {
   display: flex;
   min-height: 100vh;
@@ -297,9 +301,21 @@ body.landing #header {
 }
 
 #one {
+    margin-top: 70px;
     text-align: center;
 }
 
+#one > div > div > section > p {
+    text-align: justify;
+}
+
+#one > div > div > section >img {
+    width: 396.7px;
+    height: 538px;
+    padding: 1px;
+    border-width: 10px;
+    border-color: #000000;
+}
 
 /* Banner */
 
