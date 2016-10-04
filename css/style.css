@@ -134,14 +134,15 @@ h6 {
 }
 
 #header nav > ul {
-    width: 500px;
+    width: 440px;
     margin-right: 0px;
+    text-align: left;
 }
 
 #header nav > ul > li {
     border-radius: 4px;
     display: inline;
-    margin-left: 1.5em;
+    margin-right: 35px;
 }
 
 #header nav > ul > li a {
