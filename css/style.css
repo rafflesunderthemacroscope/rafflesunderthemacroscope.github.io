@@ -225,11 +225,14 @@ h6 {
 }
 
 #one > div > div > #left > div {
-    text-align: right;
+    float: right;
+    border-color: #000;
+    border-width: 10px;
 }
 
-#one > div > div > #left > div> img {
+#one > div > div > #left > div > img {
     width: 450px;
+    border: 0.5px solid #A62F27;
 }
 
 #one > div > div > #right {
