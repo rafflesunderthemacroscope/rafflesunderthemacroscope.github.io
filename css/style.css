@@ -112,6 +112,8 @@ h6 {
     line-height: inherit;
     position: absolute;
     background: -moz-linear-gradient(-65deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(-65deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%);
+    background: -webkit-linear-gradient(-65deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%);
 }
 
 #header h1 a {
@@ -128,6 +130,8 @@ h6 {
     padding-left: 700px;
     vertical-align: middle;
     background: -moz-linear-gradient(85.8deg, rgba(0,0,0,0) 47%, rgba(0,0,0,0.65) 100%);
+    background: linear-gradient(85.8deg, rgba(0,0,0,0) 47%, rgba(0,0,0,0.65) 100%);
+    background: -webkit-linear-gradient(85.8deg, rgba(0,0,0,0) 47%, rgba(0,0,0,0.65) 100%);
 }
 
 #header nav > ul {
