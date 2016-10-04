@@ -84,7 +84,7 @@ h6 {
 
 #logo {
     height: 50px;
-    margin-top: 20px;
+    margin-top: 13px;
 }
 
 .image {
@@ -95,36 +95,23 @@ h6 {
 
 /* Header */
 
-body.landing #header {
-    background-color: transparent;
-    left: 0;
+#header {
     position: absolute;
-    top: 0;
+    height: 4.75em;
+    line-height: 4.75em;
+    width: 100%;
 }
 
 #header #nav .Home {
     display: none;
 }
 
-#header {
-    background-color: #202222;
-    color: #ffffff;
-    cursor: default;
-    height: 4.75em;
-    line-height: 4.75em;
-    width: 100%;
-    z-index: 10000;
-}
-
 #header h1 {
-    color: #ffffff;
     height: inherit;
-    left: 2.5em;
+    padding-left: 30px;
     line-height: inherit;
-    margin: 0;
-    padding: 0;
     position: absolute;
-    top: 0;
+    background: -moz-linear-gradient(-65deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%);
 }
 
 #header h1 a {
@@ -133,12 +120,14 @@ body.landing #header {
 }
 
 #header nav {
-    height: inherit;
+    height: 100px;
     line-height: inherit;
     position: absolute;
-    right: 2.75em;
-    top: 0;
+    right: 0em;
+    padding-right: 40px;
+    padding-left: 700px;
     vertical-align: middle;
+    background: -moz-linear-gradient(85.8deg, rgba(0,0,0,0) 47%, rgba(0,0,0,0.65) 100%);
 }
 
 #header nav > ul {
@@ -154,18 +143,20 @@ body.landing #header {
     padding-left: 0;
 }
 
-
-
 #header nav > ul > li a {
     -moz-transition: color 0.2s ease-in-out;
     -webkit-transition: color 0.2s ease-in-out;
     -o-transition: color 0.2s ease-in-out;
     -ms-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out;
-    color: #ffffff;
+    color: #fff;
     display: inline-block;
     text-decoration: none;
     font-weight: 500;
+}
+
+#header nav > ul > li > #infinite {
+  
 }
 
 #header nav > ul > li a:hover {
@@ -279,13 +270,12 @@ body.landing #header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: #ffffff;
     padding: 16em 0em 17em;
     text-align: center;
 }
 
 #banner h2 {
-    color: #ffffff;
+    color: #E6EAF0;
     font-size: 3em;
     line-height: 1em;
     padding-left: 100px;
@@ -297,4 +287,5 @@ body.landing #header {
     font-size: 1.5em;
     font-style: italic;
     margin-bottom: 20px;
+    color: #E6EAF0;
 }
