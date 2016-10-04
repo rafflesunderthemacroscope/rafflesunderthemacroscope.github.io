@@ -106,22 +106,8 @@ body.landing #header {
     display: none;
 }
 
-#header2 #nav .Home {
-    display: none;
-}
-
 #header {
     background-color: #202222;
-    color: #ffffff;
-    cursor: default;
-    height: 4.75em;
-    line-height: 4.75em;
-    width: 100%;
-    z-index: 10000;
-}
-
-#header2 {
-    background-color: #F5F5F5;
     color: #ffffff;
     cursor: default;
     height: 4.75em;
@@ -141,37 +127,12 @@ body.landing #header {
     top: 0;
 }
 
-#header2 h1 {
-    color: #000000;
-    height: inherit;
-    left: 2.5em;
-    line-height: inherit;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 0;
-}
-
 #header h1 a {
     font-size: 1.25em;
     font-weight: bold;
 }
 
-#header2 h1 a {
-    font-size: 1.25em;
-    font-weight: bold;
-}
-
 #header nav {
-    height: inherit;
-    line-height: inherit;
-    position: absolute;
-    right: 2.75em;
-    top: 0;
-    vertical-align: middle;
-}
-
-#header2 nav {
     height: inherit;
     line-height: inherit;
     position: absolute;
@@ -193,12 +154,7 @@ body.landing #header {
     padding-left: 0;
 }
 
-#header2 nav > ul > li {
-    border-radius: 4px;
-    display: inline-block;
-    margin-left: 1.5em;
-    padding-left: 0;
-}
+
 
 #header nav > ul > li a {
     -moz-transition: color 0.2s ease-in-out;
@@ -207,18 +163,6 @@ body.landing #header {
     -ms-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out;
     color: #ffffff;
-    display: inline-block;
-    text-decoration: none;
-    font-weight: 500;
-}
-
-#header2 nav > ul > li a {
-    -moz-transition: color 0.2s ease-in-out;
-    -webkit-transition: color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-    color: #000000;
     display: inline-block;
     text-decoration: none;
     font-weight: 500;
