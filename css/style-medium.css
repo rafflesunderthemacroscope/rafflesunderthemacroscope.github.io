@@ -43,10 +43,9 @@
 	}
 
 	#one > div > div > #left > div {
-		width: 0px;
-		padding-left: 225px;
-		padding-right: 225px;
-		margin-right: 50%;
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
 	}
 
 	#one > div > div > #right {
