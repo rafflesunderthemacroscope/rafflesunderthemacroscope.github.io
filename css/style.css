@@ -228,6 +228,7 @@ h6 {
     float: right;
     border-color: #000;
     border-width: 10px;
+    margin-bottom: 50px;
 }
 
 #one > div > div > #left > div > img {
@@ -237,6 +238,11 @@ h6 {
 
 #one > div > div > #right {
     width: 500px;
+    margin-bottom: 50px;
+}
+
+#one > div > div > #right > p {
+    text-align: justify;
 }
 
 .Site {

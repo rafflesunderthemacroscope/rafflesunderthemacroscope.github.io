@@ -35,7 +35,28 @@
 /* Body */
 
 	#wrapper2 {
-    padding-top: 2em;
+    	padding-top: 2em;
+	}
+
+	#one > div > div > #left {
+		width: 100%;
+	}
+
+	#one > div > div > #left > div {
+		width: 0px;
+		padding-left: 225px;
+		padding-right: 225px;
+		margin-right: 50%;
+	}
+
+	#one > div > div > #right {
+		width: 70%;
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+
+	#one > div > div > #right > p {
+		text-align: justify;
 	}
 
 /* Layers */
@@ -50,12 +71,12 @@
 	}
 
 		#navButton .toggle:before {
-			content: "";
+			content: "=";
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			font-family: FontAwesome;
 			font-style: normal;
-			font-weight: normal;
+			font-weight: bold;
 			text-transform: none !important;
 		}
 
@@ -71,7 +92,7 @@
 			position: absolute;
 			text-align: center;
 			top: 0.5em;
-			width: 3.5em;
+			width: 3.5em;					
 		}
 
 	#navPanel {
