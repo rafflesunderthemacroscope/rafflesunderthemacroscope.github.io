@@ -32,6 +32,12 @@
 		padding: 12em 2em 10em;
 	}
 
+		#banner h2 {
+			font-size: 30px;
+			padding-left: 10px;
+    		padding-right: 10px;
+		}
+
 /* Body */
 
 	#wrapper2 {
