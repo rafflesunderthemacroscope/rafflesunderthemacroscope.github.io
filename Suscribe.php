@@ -13,9 +13,8 @@ if(empty($visitor_email))
 }
 
 $email_from = "underthemacroscope@gmail.com";
-$email_subject = "New email";
-$email_body = "New suscriber.\n".
-			"email address: $visitor_email\n".
+$email_subject = "New suscriber";
+$email_body = "$visitor_email\n".
 
 $to = "underthemacroscope@gmail.com";
 $headers = "From: $email_from \r\n";
