@@ -275,6 +275,10 @@ h6 {
     border-color: #000000;
 }
 
+.image {
+    width: 130px;
+}
+
 /* Banner */
 
 #banner {
