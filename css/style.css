@@ -305,3 +305,14 @@ h6 {
     margin-bottom: 20px;
     color: #E6EAF0;
 }
+
+/* Issues */
+
+#issues {
+    padding-top: 10%;
+    padding-left: 50px;
+}
+
+#header nav > #issues_nav > li > a {
+    color: #000;
+}
