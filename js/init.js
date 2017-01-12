@@ -37,7 +37,7 @@
 				grid: { gutters: ['1.25em', 0] }
 			},
 			xsmall: {
-				media: '(max-width: 480px)',
+				media: '(max-width: 566px)',
 				href: 'css/style-xsmall.css',
 			},
 			
