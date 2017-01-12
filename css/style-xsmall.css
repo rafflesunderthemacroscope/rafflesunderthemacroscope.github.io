@@ -73,8 +73,12 @@
 	#issues li img {
     width: 35%;
     margin-left: 5%;
-    padding-bottom: 10px;
-    padding-top: 20px;
-}
+    padding-bottom: 30px;
+	}
+
+	#year {
+    margin-left: 5%;
+    font-size: 40px;
+	}
 
 
