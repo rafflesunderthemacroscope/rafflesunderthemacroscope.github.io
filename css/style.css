@@ -341,4 +341,5 @@ h6 {
     margin-bottom: 50px;
     box-shadow: 10px 10px 10px #5B5D5E;
     -webkit-box-shadow: 10px 10px 10px #5B5D5E;
+    position: relative;
 }
