@@ -338,5 +338,6 @@ h6 {
 #issues li img {
     width: 20%;
     margin-left: 10%;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 10px #5B5D5E;
 }
