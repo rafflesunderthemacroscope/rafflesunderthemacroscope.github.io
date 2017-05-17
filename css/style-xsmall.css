@@ -70,4 +70,15 @@
 		padding-right: 0px;
 	}
 
+	#issues li img {
+    width: 35%;
+    margin-left: 5%;
+    margin-bottom: 30px;
+	}
+
+	#year {
+    margin-left: 5%;
+    font-size: 40px;
+	}
+
 

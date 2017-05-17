@@ -111,9 +111,9 @@ h6 {
     padding-left: 30px;
     line-height: inherit;
     position: absolute;
-    background: -moz-linear-gradient(-65deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%);
-    background: linear-gradient(-65deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%);
-    background: -webkit-linear-gradient(-65deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%);
+    background: -moz-linear-gradient(-70deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(-70deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%);
+    background: -webkit-linear-gradient(-70deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%);
 }
 
 #header h1 a {
@@ -134,7 +134,7 @@ h6 {
 }
 
 #header nav > ul {
-    width: 440px;
+    width: 560px;
     margin-right: 0px;
     text-align: left;
 }
@@ -275,6 +275,10 @@ h6 {
     border-color: #000000;
 }
 
+.image {
+    width: 130px;
+}
+
 /* Banner */
 
 #banner {
@@ -300,4 +304,42 @@ h6 {
     font-style: italic;
     margin-bottom: 20px;
     color: #E6EAF0;
+}
+
+/* Issues */
+.issues {
+    background-color: #DCE1E3;
+    padding-bottom: 200px;
+}
+
+#header nav > #issues_nav > li > a {
+    color: #000;
+}
+
+#year {
+    font-size: 50px;
+    font-color: #DDD;
+    margin-left: 10%;
+}
+
+#issues {
+    padding-top: 10%;
+    padding-left: 50px;
+}
+
+#issues li {
+    display: inline;
+}
+
+#for_issue {
+
+}
+
+#issues li img {
+    width: 20%;
+    margin-left: 10%;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 10px #5B5D5E;
+    -webkit-box-shadow: 10px 10px 10px #5B5D5E;
+    position: relative;
 }

@@ -2,3 +2,13 @@ li #signup {
 	float: left;
 	margin-bottom: 1.8em;
 }
+
+#year {
+	font-size: 30px;
+}
+
+#issues li img {
+    width: 60%;
+    margin-left: 5%;
+    margin-bottom: 30px;
+}
